@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Satisfaction</title>
+</head>
+<body style="background-color :rgb(111, 124, 148);">
+    <h1>Customer Satisfaction</h1>
+    <form method="GET" action = "/Customer_Satisfaction">
+
+
+        <label>Gender:</label>
+        <select name = "Gender">
+            <option value = "Male">Male</option>
+            <option value = "Female">Female</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label>Quantity :</label>
+        <input type = "text" name = "Quantity">
+        </select>
+        <br>
+        <br>
+
+        <label>Total :</label>
+        <input type = "text" name = "Total">
+        </select>
+        <br>
+        <br>
+
+        <label>cogs :</label>
+        <input type = "text" name = "cogs">
+        </select>
+        <br>
+        <br>
+
+
+
+        <label>Branch:</label>
+        <select name = "Branch">
+            <option value = "A">A</option>
+            <option value = "B">B</option>
+            <option value = "C">C</option>
+        </select>
+       
+        <br>
+        <br>
+
+        <label>City:</label>
+        <select name = "City">
+            <option value = "Mandalay">Mandalay</option>
+            <option value = "Naypyitaw">Naypyitaw</option>
+            <option value = "Yangon">Yangon</option>
+            
+        </select>
+
+        <br>
+        <br>
+
+        <label>Customer_type:</label>
+        <select name = "Customer_type">
+            <option value = "Normal">Normal</option>
+            <option value = "Member">Member</option>
+           
+        </select>
+       
+        <br>
+        <br>
+
+        <label>Unit_price :</label>
+        <input type = "text" name = "Unit_price">
+        </select>
+        <br>
+        <br>
+
+        <label>Tax_5 :</label>
+        <input type = "text" name = "Tax_5">
+        </select>
+        <br>
+        <br>
+
+        <label>gross_income :</label>
+        <input type = "text" name = "gross_income">
+        </select>
+        <br>
+        <br>
+
+        <label>Product_line:</label>
+        <select name = "Product_line">
+            <option value = "Electronic accessories">Electronic accessories</option>
+            <option value = "Fashion accessories">Fashion accessories</option>
+            <option value = "Food and beverages">Food and beverages</option>
+            <option value = "Health and beauty">Health and beauty</option>
+            <option value = "Home and lifestyle">Home and lifestyle</option>
+            <option value = "Sports and travel">Sports and travel</option>
+           
+        </select>
+       
+        <br>
+        <br>
+
+        <label>Payment:</label>
+        <select name = "Payment">
+            <option value = "Cash">Cash</option>
+            <option value = "Credit card">Credit card</option>
+            <option value = "Ewallet">Ewallet</option>
+           
+        </select>
+       
+        <br>
+        <br>
+
+        <input type = "submit" value="SUBMIT">
+
+        <br>
+
+        <p><b> {{ prediction }}</b> </p>
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
